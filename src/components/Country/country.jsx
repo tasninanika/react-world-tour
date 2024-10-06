@@ -1,10 +1,11 @@
-const country = ({country}) => {
-    console.log(country);
+import './Country.css';
+const Country = ({country}) => {
+    const {name} = country;
     return (
         <div>
-            
+            <h3>Name {name?.common}</h3>
         </div>
     );
 };
 
-export default country;
+export default Country;
