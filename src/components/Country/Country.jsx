@@ -9,6 +9,7 @@ const Country = ({country}) => {
             <p>Population: {population}</p>
             <p>Area: {area}</p>
             <p><small>Code: {cca3}</small></p>
+            <button>Visited</button>
         </div>
     );
 };
