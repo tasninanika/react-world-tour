@@ -17,7 +17,7 @@ const Country = ({country}) => {
             <p>Population: {population}</p>
             <p>Area: {area}</p>
             <p><small>Code: {cca3}</small></p>
-            <button onClick={handleVisited}>Visited</button>
+            <button onClick={handleVisited}>{visited? 'Visited' : 'Going'}</button>
             {visited && 'I have visited this country.'}
         </div>
     );
