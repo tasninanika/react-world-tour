@@ -13,8 +13,8 @@ const Countries = () =>{
     },[])
     
     const handleVisitedCountry = country =>{
-        // console.log('add');
-        // console.log(country);
+        console.log('add this to your visited country');
+        console.log(country);
     }
 
     return(
@@ -23,7 +23,7 @@ const Countries = () =>{
             <div>
                 <h5>Visited countries</h5>
                 <ul>
-                    
+
                 </ul>
             </div>
             <div className="country-container">
