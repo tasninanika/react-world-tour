@@ -14,9 +14,11 @@ const Countries = () =>{
     return(
         <div>
             <h3>countries: {countries.length}</h3>
+            <div className="country-container">
             {
                 countries.map(country =><Country key={country.cca3} country={country}></Country>)
             }
+            </div>
         </div>
     );
 };
