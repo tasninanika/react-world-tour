@@ -40,6 +40,7 @@ const Countries = () =>{
             {
                 countries.map(country =><Country key={country.cca3}
                 handleVisitedCountry={handleVisitedCountry}
+                handleVisitedFlags={handleVisitedFlags}
                  country={country}></Country>)
             }
             </div>
