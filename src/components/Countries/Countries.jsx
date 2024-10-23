@@ -21,7 +21,7 @@ const Countries = () =>{
         <div>
             <h3>countries: {countries.length}</h3>
             <div>
-                <h5>Visited countries</h5>
+                <h5>Visited countries: {visitedCountries.length}</h5>
                 <ul>
 
                 </ul>
